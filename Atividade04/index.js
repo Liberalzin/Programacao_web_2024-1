@@ -1,5 +1,5 @@
 const express  = require('express');
-const calc     = require('./util/calculadora');
+const calc     = require('./calculadora');
 const app      = express();
 
 app.get('/', function (req, res) {
